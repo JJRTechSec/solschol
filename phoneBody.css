@@ -99,6 +99,10 @@ GENERAL | HOME | ABOUT | SERVICES | CONTACT
     margin: 40px 0px;
   }
 
+  .founder-photo {
+    background-image: url(synne-headshot.png);
+  }
+
   .founder-name {
     text-align: center;
   }
