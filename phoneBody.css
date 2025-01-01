@@ -105,6 +105,7 @@ GENERAL | HOME | ABOUT | SERVICES | CONTACT
 
   .founder-photo {
     background-image: url(synne-headshot.png);
+    z-index: 101;
   }
 
   .founder-name {
