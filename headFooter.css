@@ -1,0 +1,252 @@
+:root {
+  --norway-red: rgb(186,13,47);
+  --norway-blue: rgb(24, 44, 184);
+  --box-hover: rgb(4, 35, 122);
+  --btn-font-size: 14px;
+  --title-size: 36px;
+  --text-size: 14px;
+  --sub-heading-size: 20px;
+  --text-color: white;
+  --solaris-font: brittany signature;
+  --question-size: 18px;
+  --general-font: IBM Plex serif;
+  --title-weight: 800;
+  --sub-heading-weight: 600;
+  --general-weight: 300;
+  --phone-title-size: 36px;
+}
+
+/* HEADER */
+.header {
+  height: 75px;
+  width: 100%;
+  border-bottom: 2px solid white;
+  background-color: var(--norway-red);
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  z-index: 100;
+  align-items: center;
+  justify-content: center;
+}
+
+.solaris-slogan {
+  flex: 1;
+  background-image: url();
+  background-repeat: no-repeat;
+  font-family: var(--general-font);
+  font-weight: var(--generic-weight);
+  font-size: 28px;
+  color: white;
+  padding-left: 30px;
+}
+
+.solaris-title-section {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.solaris-title {
+  color: white;
+  font-family: var(--solaris-font);
+  font-size: 34px;
+}
+
+.solaris-title:hover,
+.menu-icon:hover {
+  cursor: pointer;
+}
+
+.solaris {
+  color: white;
+  text-decoration: none;
+}
+
+.solaris:hover {
+  color: var(--norway-blue);
+}
+
+.menu-icon {
+  display: flex;
+  flex-direction: column;
+}
+
+.white-line {
+  width:50px;
+  background-color: white;
+  height: 2.5px;
+  margin-bottom: 8px;
+  border-radius: 6px;
+  margin-right: 15px;
+}
+
+.middle-line {
+  height: 2.5px;
+}
+
+.bottom-line {
+  margin: 0px;
+  height: 3px;
+}
+
+.web-dropdown-menu {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: right;
+  margin-right: 15px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.menu-icon:hover > .white-line {
+  background-color: var(--norway-blue);
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  right: 0;
+  box-shadow: -2px 2px 10px rgb(124, 124, 124);
+  background-color: white;
+  min-width: 200px;
+  text-align: center;
+}
+
+.nav-link {
+  color: var(--norway-red);
+  text-decoration: none;
+  display: block;
+  font-size: 20px;
+  padding: 8px 0px;
+  font-family: var(--general-font);
+  font-weight: var(--sub-heading-weight);
+}
+
+.nav-link:hover {
+  background-color: var(--norway-blue);
+  color:white;
+  transition: 0.25s;
+  opacity: 0.9;
+}
+
+
+/* FOOTER */
+.footer{
+  background-color: var(--norway-red);
+  display: flex;
+  flex-direction: row;
+  color: white;
+  height: 160px;
+  min-width: 100%;
+  margin: 0px -8px 0px -8px;
+  padding: 8px;
+  border-top: 2px solid white;
+  margin-bottom: -8px;
+}
+
+/* FOOTER LEFT */
+
+.footer-left {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.web-nav {
+  font-size: 14px;
+  font-family: var(--general-font);
+  font-weight: var(--sub-heading-weight);
+  margin-bottom: 8px;
+  color: white;
+}
+
+.footer-links {
+  font-size: 12px;
+  font-family: var(--general-font);
+  font-weight: var(--sub-heading-weight);
+  color: white;
+  margin-bottom: 4px;
+  text-decoration: none;
+}
+
+.footer-links:hover {
+  color: var(--norway-blue);
+}
+
+/* FOOTER MIDDLE */
+.footer-middle {
+  display: flex;
+  align-items: end;
+  margin-bottom: 0px;
+}
+
+.ss-footer {
+  display: flex;
+  align-items: end;
+  font-size: 14px;
+  font-family: var(--general-font);
+  font-weight: var(--sub-heading-weight);
+  margin-right: 4px;
+}
+
+/* FOOTER RIGHT */
+.footer-right {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  align-items: center;
+  margin-top: -10px;
+}
+
+.socials {
+  font-size: var(--text-size);
+  font-family: var(--general-font);
+  font-weight: var(--sub-heading-weight);
+  margin-bottom: 4px;
+}
+
+.social-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  margin-left: -30px;
+}
+
+.social-icon-place {
+  width: 20px;
+}
+
+.social-channel-section {
+  display: flex;
+  width: 20px;
+}
+
+.social-link-section {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.social-icon {
+  width: 16px;
+}
+
+.icon {
+  background-color: white;
+  border: 1px solid var(--norway-red);
+  border-radius: 4px;
+  margin-left: -1px
+}
