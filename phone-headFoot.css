@@ -1,0 +1,22 @@
+@media (min-width: 300px) and (max-width: 500px) {
+  /* HEADER */
+  .solaris-slogan {
+    font-size: 0.75em;
+    padding-left: 10px;
+  }
+
+  .solaris-title {
+    font-size: 1.5em;
+  }
+
+  .web-dropdown-menu {
+    margin-right: 10px;
+  }
+
+  /* FOOTER */
+  .web-nav,
+  .socials {
+    text-align: center;
+    font-size: 0.8em;
+  }
+}
